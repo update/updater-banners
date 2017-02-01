@@ -1,0 +1,81 @@
+{
+  "name": "updater-banners",
+  "description": "Updater for updating the banner comments in JavaScript files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/update/updater-banners",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "update/updater-banners",
+  "bugs": {
+    "url": "https://github.com/update/updater-banners/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "updatefile.js"
+  ],
+  "main": "index.js",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "has-banner": "^0.3.1",
+    "is-valid-app": "^0.2.1",
+    "through2": "^2.0.3",
+    "update-banner": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0",
+    "update": "^0.7.4"
+  },
+  "keywords": [
+    "banner",
+    "banners",
+    "fix",
+    "lint",
+    "linter",
+    "maintain",
+    "maintainance",
+    "plugin",
+    "plugins",
+    "up-to-date",
+    "update",
+    "update-plugin",
+    "update-updater",
+    "updateplugin",
+    "updater",
+    "upkeep"
+  ],
+  "update": {
+    "run": true
+  },
+  "verb": {
+    "related": {
+      "list": [
+        "updater-editorconfig",
+        "updater-eslint",
+        "updater-package"
+      ]
+    },
+    "run": true,
+    "toc": false,
+    "layout": null,
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "update",
+      "updater-banners"
+    ]
+  }
+}
